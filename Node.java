@@ -59,7 +59,7 @@ class SinglyLinkedList{
         System.out.println("Linked list after insertions:");
         list.display();
 
-        list.deleteFromBeginning("List empty");
+        list.deleteFromBeginning();
         System.out.println("Linked List after deletion from beginning:");
         list.display();
 
