@@ -31,14 +31,14 @@ class SinglyLinkedList{
     } 
     public void deleteFromBeginning(){
         if (head == null) {
-            System.out.println("List is empty");
+            System.out.println("List empty");
             return;
             }
             head = head.next;
     }
     public void display(){
         if (head == null){
-            System.out.println("List is empty");
+            System.out.println("List empty");
             return;
             }
             Node temp = head;
@@ -59,7 +59,7 @@ class SinglyLinkedList{
         System.out.println("Linked list after insertions:");
         list.display();
 
-        list.deleteFromBeginning();
+        list.deleteFromBeginning("List empty");
         System.out.println("Linked List after deletion from beginning:");
         list.display();
 
